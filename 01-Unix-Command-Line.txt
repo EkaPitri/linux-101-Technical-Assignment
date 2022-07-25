@@ -1,0 +1,39 @@
+1. mkdir Pitri
+
+2. ~cd Pitri
+   ~mkdir sekolah
+   ~mkdir kerja
+
+3. ~cd sekolah
+   ~echo -e Perkenalkan namaku Eka Pitri
+
+Aku berasal dari Madiun
+
+Salam Kenal :D >> ijazah.txt
+   ~ctrl+x
+   ~Y
+   ~Enter
+   ~cat ijazah.txt
+   ~echo -e Saya pernah bekerja pada beberapa perusahaan salah satu 
+diantaranya ialah
+
+- Telkom
+- Samsung Electronic
+- Indihome >> portofolio.txt
+
+4. cd ..
+
+5. ~cd kerja
+   ~echo -e Salam,
+
+Perkenalkan namaku Eka Pitri, saya memiliki kegemaran
+- Membaca Buku Kesehatan
+- Memasak
+- Berkebun >> cv.txt
+   ~ctrl+x
+   ~Y
+   ~Enter
+   ~cat cv.txt
+
+6. ~cd sekolah
+   ~mv portfolio.txt /home/pi/Pitri/kerja
